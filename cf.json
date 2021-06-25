@@ -1,20 +1,24 @@
 {
-"parent":"null",
-"name":"Data Engineering",
-"edge_name":"null",
-"children":[{
-	"parent":"Data Engineering",
-	"name":"RDBMS"
-	"edge_name":"RDBMS",
-	"children": []},
-	{"parent":"Data Engineering",
-	"name":"Object Store"
-	"edge_name":"Object Store",
-	"children": []},
-
-	{"parent":"Data Engineering",
-	"name":"No SQL Databases"
-	"edge_name":"No SQL Databases",
-	"children": []}
-	]
+    "parent": "null",
+    "name": "Data Engineering",
+    "edge_name": "null",
+    "children": [{
+            "parent": "Data Engineering",
+            "name": "RDBMS", 
+            "edge_name": "RDBMS",
+            "children": []
+        },
+        {
+            "parent": "Data Engineering",
+            "name": "Object Store", 
+            "edge_name": "Object Store",
+            "children": []
+        },
+        {
+            "parent": "Data Engineering",
+            "name": "No SQL Databases",
+            "edge_name": "No SQL Databases",
+            "children": []
+        }
+    ]
 }
